@@ -1,0 +1,16 @@
+* tagit requires mutagen 
+
+```bash
+easy_install mutagen
+```
+
+or [[http://code.google.com/p/mutagen/|http://code.google.com/p/mutagen/]]
+
+```bash
+  python tagit.py -h
+```
+
+**example: **
+```bash
+  python tagit.py -n -t title_list_file -i cover.png -b 'The Pixies' -a 'Doolittle' -y 1989
+```
